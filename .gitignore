@@ -1,2 +1,4 @@
 .DS_Store
 .idea
+__pycache__/
+astra_export_xml.zip
