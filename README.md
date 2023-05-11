@@ -37,3 +37,7 @@ be **PUT**.
 
 ### Docker
 The application can be started using *Docker* command `docker-compose up`.
+
+### Tests
+The application has unit tests for all three data endpoints.
+Tests can be run using pytest command `pytest test_app.py`.
