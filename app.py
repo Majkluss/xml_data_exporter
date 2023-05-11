@@ -90,3 +90,7 @@ def get_products(xml_data, with_parts_only=False):
         items = [element.attrib["name"] for element in xml_data.find("items")]
 
     return items
+
+
+if __name__ == "__main__":
+    app.run(host='0.0.0.0', port=8080)
